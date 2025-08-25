@@ -117,7 +117,8 @@ img_rgb.shape
 
 #### 11. Add the following text to the dark area at the bottom of the image (centered on the image):
 ```python
-text = cv2.putText(img_rgb, "Apollo 11 Saturn V Launch, July 16, 1969", (300, 700),cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)  
+text = cv2.putText(img_rgb, "Apollo 11 Saturn V Launch, July 16, 1969", (300, 700),cv2.FONT_HERSHEY_
+SIMPLEX, 1, (255, 255, 255), 2)  
 plt.imshow(text, cmap='gray')  
 plt.title("New image")
 plt.show()  
